@@ -73,7 +73,7 @@ pipeline{
                }
             }
         }
-        tage('Build and Add Artifact to the repo : JFrog') {
+        stage('Build and Add Artifact to the repo : JFrog') {
 steps {
 script {
 // Artifactory configuration
